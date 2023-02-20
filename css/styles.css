@@ -1,0 +1,241 @@
+:root {
+  --primary-color: rgba(33, 150, 243, 1);
+  --secondary-color: rgba(117, 117, 117, 1);
+  --hero-color: rgba(255, 255, 255, 1);
+  --contact-color: rgba(255, 255, 255, 0.6);
+  --main-color: rgba(47, 48, 58, 1);
+  --team-color: rgba(245, 244, 250, 1);
+  --nav-color: rgba(33, 33, 33, 1);
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+
+.logo {
+  font family: Raleway; sans-serif;
+  font-size: Bold;
+  font-size: size: 26px;
+  Line-height: 31px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.first-section {
+  background-color: var(--main-color);
+}
+
+.first-title {
+  color: var(--hero-color);
+  Font-style: Black;
+  Font-size: 44px;
+  Line-height: 60px;  
+  Line-height: 116%;
+  text-transform: uppercase;
+}
+
+.service-button {
+  Font-style: Bold;
+  Font-size: 16px;
+  Line-height: 30px;
+  Line-height: 160%;
+  Align: Center;
+  Vertical-align: Center;
+  Letter-spacing: 6%;
+  color: var(--hero-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-nav {
+  color: var(--nav-color);
+  background-color: var(--team-color);
+  cursor: pointer;
+  Font-style: Medium;
+  Font-size: 16px;
+  Line-height: 26px;
+  Line-height: 139%;
+  Align: Center;
+  Vertical-align: Top;
+  Letter-spacing: 3%;
+  border-style: none;
+}
+
+.btn-nav:hover,
+.btn-nav:focus {
+  color: var(--primary-color);
+  background-color: white;
+}
+
+.btn-current {
+  color: var(--hero-color);
+  background-color: var(--primary-color);
+}
+
+.nav-item {
+  text-decoration: none;
+  font-style: medium;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.current {
+  color: var(--primary-color)
+}
+
+.nav-item:focus,
+.nav-item:hover {
+  color: var(--primary-color);
+  list-style: none;
+  text-decoration: none;
+}
+.nav-button {
+  list-style: none;
+}
+
+.nav-list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.features {
+  list-style: none;
+}
+
+.feat-title {  
+  Font-style: Bold;
+  Font-size: 14px;
+  Line-height: 16px;
+  Line-height: 100%;
+  Align: Left;
+  Vertical-align: Top;
+  Letter-spacing: 3%;
+  color: var(--nav-color);
+  text-transform: uppercase;
+}
+
+.feat-paragraph {
+  Font-style: Regular;
+  font-weight: 400;
+  Font-size: 14px;
+  Line-height: 24px;
+  Line-height: 146%;
+  Align: Left;
+  Vertical-align: Top;
+  Letter-spacing: 3%;
+  color: var(--secondary-color)
+}
+
+.work-title {
+  Font-style: Bold;
+  font-weight: 700;
+  Line-height: 42px;
+  Font-size: 36px;
+  Line-height: 100%;
+  Align: Center;
+  Vertical-align: Top;
+  Letter-spacing: 3%;
+}
+
+.work-galery {
+  list-style: none;
+}
+
+.team {
+  background-color: var(--team-color);
+}
+
+.team-galery {
+  list-style: none;
+}
+
+.team-member {
+  Font style: Medium; 
+  Line-height: 19px;  
+  Line-height: 100%;  
+  Align: Center;  
+  Vertical-align: Top;  
+  Letter-spacing: 3%; 
+  color: var(--nav-color);
+}
+
+.team-description {
+  Font-style: Regular;
+  Font-size: 16px;
+  Line-height: 19px;
+  Line-height: 100%;
+  Align: Center;
+  Vertical-align: Top;
+  Letter-spacing: 3%;
+  color: var(--nav-color)
+}
+
+.galery {
+  list-style: none;
+}
+
+.galery-element {
+  Font-style: Bold;
+  Font-size: 18px;
+  Line-height: 36px;
+  Line-height: 171%;
+  Align: Left;
+  Vertical-align: Top;
+  Letter-spacing: 6%;
+  color: var(--nav-color);
+}
+
+.galery-par {
+Font-style: Regular;
+font-weight: 400;
+Font-size: 16px;
+Line-height: 30px;
+Line-height: 160%;
+Align: Left;
+Vertical-align: Top;
+Letter-spacing: 3%;
+color: var(--secondary-color)
+}
+
+.footerdown {
+  background-color: var(--main-color);
+}
+
+.footer-title {
+  font family: Raleway;
+  font-size: Bold;
+  font-size: size: 26px;
+  Line-height: 31px;
+  Line-height: 100%;
+  color: var(--primary-color);
+}
+
+.contact-address {
+  color: var(--hero-color)
+}
+.contact-list {
+  color: var(--contact-color);
+  list-style: none;  
+}
+
+.contact-item {
+  text-decoration: none;
+  color: var(--contact-color);
+}
+
+.contact-item:focus,
+.contact-item:hover {
+  color: var(--primary-color);
+  list-style: none;
+  text-decoration: none;
+}
+
+.social-network {
+  color: var(--contact-color);
+  text-transform: uppercase;
+}
